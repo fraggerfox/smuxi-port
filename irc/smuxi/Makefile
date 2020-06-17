@@ -14,6 +14,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 BUILD_DEPENDS=	${LOCALBASE}/libdata/pkgconfig/log4net.pc:devel/log4net \
 		${LOCALBASE}/libdata/pkgconfig/mono-addins.pc:devel/mono-addins \
 		${LOCALBASE}/libdata/pkgconfig/nini-1.1.pc:devel/nini \
+		intltool-update:textproc/intltool \
 		bash:shells/bash
 LIB_DEPENDS=	libstfl.so:devel/stfl
 RUN_DEPENDS=	mono-addins>0:devel/mono-addins
