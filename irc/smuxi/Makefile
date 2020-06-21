@@ -36,7 +36,8 @@ NOTIFY_DESC=	Build with Notification Support
 
 DBUS_BUILD_DEPENDS=	${LOCALBASE}/libdata/pkgconfig/ndesk-dbus-1.0.pc:devel/ndesk-dbus \
 			${LOCALBASE}/libdata/pkgconfig/ndesk-dbus-glib-1.0.pc:devel/ndesk-dbus-glib
-NOTIFY_BUILD_DEPENDS=	${LOCALBASE}/libdata/pkgconfig/notify-sharp-3.0.pc:devel/notify-sharp
+NOTIFY_BUILD_DEPENDS=	${LOCALBASE}/libdata/pkgconfig/notify-sharp-3.0.pc:devel/notify-sharp \
+			${LOCALBASE}/libdata/pkgconfig/gtk-sharp-3.0.pc:x11-toolkits/gtk-sharp30
 GTKSPELL_LIB_DEPENDS=	libgtkspell.so:textproc/gtkspell
 
 NLS_USES=		gettext
