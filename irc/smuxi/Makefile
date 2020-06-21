@@ -25,16 +25,18 @@ USES=		desktop-file-utils gettext-tools:build gmake gnome mono \
 USE_GNOME=	gtksharp20
 INSTALLS_ICONS=	yes
 
-OPTIONS_DEFINE=		DBUS GTKSPELL NLS
-OPTIONS_DEFAULT=	DBUS GTKSPELL NLS
+OPTIONS_DEFINE=		DBUS GTKSPELL NLS NOTIFY
+OPTIONS_DEFAULT=	DBUS GTKSPELL NLS NOTIFY
 OPTIONS_SUB=		yes
 
 DBUS_DESC=	Build with DBUS support
 GTKSPELL_DESC=	Support spell checking
 NLS_DESC=	Build with NLS support
+NOTIFY_DESC=	Build with Notification Support
 
 DBUS_BUILD_DEPENDS=	${LOCALBASE}/libdata/pkgconfig/ndesk-dbus-1.0.pc:devel/ndesk-dbus \
 			${LOCALBASE}/libdata/pkgconfig/ndesk-dbus-glib-1.0.pc:devel/ndesk-dbus-glib
+NOTIFY_BUILD_DEPENDS=	${LOCALBASE}/libdata/pkgconfig/notify-sharp-3.0.pc:devel/notify-sharp
 GTKSPELL_LIB_DEPENDS=	libgtkspell.so:textproc/gtkspell
 
 NLS_USES=		gettext
