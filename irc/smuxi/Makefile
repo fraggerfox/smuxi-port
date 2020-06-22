@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/irc/smuxi/Makefile 539792 2020-06-22 02:29:01Z fox $
 
 PORTNAME=	smuxi
 PORTVERSION=	1.0.8
