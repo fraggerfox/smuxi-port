@@ -1,7 +1,7 @@
 smuxi-port
 ==========
 
-FreeBSD Ports script for Smuxi.
+FreeBSD [Ports][4] script for Smuxi.
 
 You can find Smuxi [here][1]
 
@@ -28,6 +28,7 @@ Credits
 
 * The Smuxi is developed and maintained by the [Mirco Bauer][3]
 * Thanks to `@ppaeps` for a machine to do and test the port development.
+* Thanks to `@aashiks` for helping me doing build and run tests in GhostBSD.
 
 License
 -------
