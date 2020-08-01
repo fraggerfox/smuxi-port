@@ -1,5 +1,5 @@
 # Created by: Romain Tartiere <romain@blogreen.org>
-# $FreeBSD: head/irc/smuxi/Makefile 542232 2020-07-14 19:58:37Z fox $
+# $FreeBSD: head/irc/smuxi/Makefile 542841 2020-07-22 09:09:01Z tobik $
 
 PORTNAME=	smuxi
 PORTVERSION=	1.0.8
@@ -28,7 +28,7 @@ INSTALLS_ICONS=	yes
 
 OPTIONS_DEFINE=		DBUS NLS SPELLCHECK
 OPTIONS_DEFAULT=	DBUS NLS SPELLCHECK
-oOPTIONS_SUB=		yes
+OPTIONS_SUB=		yes
 
 SPELLCHECK_DESC=	Spell checking support via GtkSpell
 
