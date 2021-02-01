@@ -1,5 +1,5 @@
 # Created by: Romain Tartiere <romain@blogreen.org>
-# $FreeBSD: head/irc/smuxi/Makefile 542841 2020-07-22 09:09:01Z tobik $
+# $FreeBSD: head/irc/smuxi/Makefile 563257 2021-01-29 22:25:29Z fox $
 
 PORTNAME=	smuxi
 PORTVERSION=	1.0.8
@@ -9,7 +9,7 @@ MASTER_SITES=	http://www.smuxi.org/jaws/data/files/
 MAINTAINER=	fox@FreeBSD.org
 COMMENT=	Smart MUltipleXed Irc
 
-LICENSE=	LGPL21
+LICENSE=	GPLv2+
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 BUILD_DEPENDS=	${LOCALBASE}/libdata/pkgconfig/log4net.pc:devel/log4net \
